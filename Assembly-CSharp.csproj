@@ -51,6 +51,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\OtherPlugin\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+     <Compile Include="Assets\PlayerAttackPlugin\Scripts\LZLAttackNormalAttribute.cs" />
+     <Compile Include="Assets\PlayerAttackPlugin\Scripts\LZLBaseAttackCtrl.cs" />
      <Compile Include="Assets\UIAnimPlugin\Scripts\Test\anchorV2MoveTest.cs" />
      <Compile Include="Assets\UIAnimPlugin\Scripts\UISampleAnimMgr.cs" />
      <Compile Include="Assets\UIAnimPlugin\Scripts\UISampleAnimUnit.cs" />

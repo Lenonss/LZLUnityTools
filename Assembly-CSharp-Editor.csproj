@@ -51,6 +51,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\OtherPlugin\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
+     <Compile Include="Assets\PlayerAttackPlugin\Editor\LZLAttackNormalAttributeEditor.cs" />
      <Compile Include="Assets\UIAnimPlugin\Editor\UISampleAnimUnitEditor.cs" />
      <None Include="Assets\OtherPlugin\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
  <Reference Include="UnityEditor.TestRunner">
