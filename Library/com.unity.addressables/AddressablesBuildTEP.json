@@ -1,0 +1,15 @@
+{
+"Date": "2021/10/27 20:15:26",
+"UnityVersion": "2019.4.28f1c1",
+"com.unity.scriptablebuildpipeline": "1.15.2",
+"com.unity.addressables": "1.16.19",
+"traceEvents": [
+{"name": "Building Default Build Script", "ph": "X", "dur": 7865898, "tid": 1, "ts": 7728, "pid": 1}
+,{"name": "ProcessAllGroups", "ph": "X", "dur": 2477338.1, "tid": 1, "ts": 11398, "pid": 1}
+,{"name": "ContentPipeline.BuildAssetBundles", "ph": "X", "dur": 5371799.1, "tid": 1, "ts": 2501691, "pid": 1}
+,{"name": "AssetDatabase.SaveAssets", "ph": "X", "dur": 8238.70000000034, "tid": 1, "ts": 2509075, "pid": 1}
+,{"name": "SwitchToBuildPlatform", "ph": "X", "dur": 275.600000000395, "tid": 1, "ts": 2834402, "pid": 1}
+,{"name": "RebuildSpriteAtlasCache", "ph": "X", "dur": 576.500000000124, "tid": 1, "ts": 2838200, "pid": 1}
+,{"name": "BuildPlayerScripts", "ph": "X", "dur": 4899652.4, "tid": 1, "ts": 2841451, "pid": 1}
+]
+}

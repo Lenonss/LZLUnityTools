@@ -1,2 +1,5 @@
 Base path: 'F:/ProgramFiles/Unitys/2019.4.28f1c1/Editor/Data', plugins path 'F:/ProgramFiles/Unitys/2019.4.28f1c1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
+Cmd: shutdown
+
+Quitting shader compiler process

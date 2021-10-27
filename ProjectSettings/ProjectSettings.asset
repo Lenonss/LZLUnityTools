@@ -706,10 +706,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 6a263e17-cd17-4c6a-bb52-9aa3310115f3
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: LZLUnityTools
+  organizationId: blanklz
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

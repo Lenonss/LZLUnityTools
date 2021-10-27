@@ -50,17 +50,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\LZLToolBox\CommonPlugin\TagEnumGenarator.cs" />
+     <Compile Include="Assets\LZLToolBox\PlayerAttackPlugin\Scripts\LZLAtkConfigManager.cs" />
+     <Compile Include="Assets\LZLToolBox\PlayerAttackPlugin\Scripts\LZLAttackNormalAttribute.cs" />
+     <Compile Include="Assets\LZLToolBox\PlayerAttackPlugin\Scripts\LZLBaseAttackCtrl.cs" />
+     <Compile Include="Assets\LZLToolBox\PlayerAttackPlugin\Scripts\LZLTestAtkCtrl.cs" />
+     <Compile Include="Assets\LZLToolBox\PlayerAttackPlugin\Scripts\ScriptObjects\CharacterState_SO.cs" />
+     <Compile Include="Assets\LZLToolBox\PlayerAttackPlugin\Scripts\ScriptObjects\WeaponState_SO.cs" />
+     <Compile Include="Assets\LZLToolBox\Res\UnityTagEnum.cs" />
+     <Compile Include="Assets\LZLToolBox\UIAnimPlugin\Scripts\Test\anchorV2MoveTest.cs" />
+     <Compile Include="Assets\LZLToolBox\UIAnimPlugin\Scripts\UISampleAnimMgr.cs" />
+     <Compile Include="Assets\LZLToolBox\UIAnimPlugin\Scripts\UISampleAnimUnit.cs" />
      <Compile Include="Assets\OtherPlugin\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
-     <Compile Include="Assets\PlayerAttackPlugin\Scripts\LZLAttackNormalAttribute.cs" />
-     <Compile Include="Assets\PlayerAttackPlugin\Scripts\LZLBaseAttackCtrl.cs" />
-     <Compile Include="Assets\UIAnimPlugin\Scripts\Test\anchorV2MoveTest.cs" />
-     <Compile Include="Assets\UIAnimPlugin\Scripts\UISampleAnimMgr.cs" />
-     <Compile Include="Assets\UIAnimPlugin\Scripts\UISampleAnimUnit.cs" />
      <None Include="Assets\OtherPlugin\Demigiant\DOTween\DOTween43.xml" />
      <None Include="Assets\OtherPlugin\Demigiant\DOTween\DOTween46.xml" />
      <None Include="Assets\OtherPlugin\Demigiant\DOTween\DOTween50.xml" />
      <None Include="Assets\OtherPlugin\Demigiant\readme_DOTweenPro.txt" />
-     <None Include="Assets\UIAnimPlugin\ReadMe.txt" />
+     <None Include="Assets\LZLToolBox\UIAnimPlugin\ReadMe.txt" />
      <None Include="Assets\OtherPlugin\Demigiant\DemiLib\Core\DemiLib.xml" />
      <None Include="Assets\OtherPlugin\Demigiant\DOTweenPro\readme.txt" />
      <None Include="Assets\OtherPlugin\Demigiant\DOTween\readme.txt" />
@@ -93,6 +99,15 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>F:/GitItems/LZLUnityTools/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Monetization">
+ <HintPath>F:/GitItems/LZLUnityTools/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>F:/GitItems/LZLUnityTools/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements.Editor">
+ <HintPath>F:/GitItems/LZLUnityTools/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>F:/ProgramFiles/Unitys/2019.4.28f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
