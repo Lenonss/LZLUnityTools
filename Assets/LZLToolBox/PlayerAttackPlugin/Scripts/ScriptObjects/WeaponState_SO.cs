@@ -9,7 +9,7 @@ namespace LZLToolBox.PlayerController
     {
         None, Physic, Magic,
     }
-    [CreateAssetMenu(menuName = "TheStates/WeaponState_SO", fileName = "WeaponState_SO")]
+    [CreateAssetMenu(menuName = "LZLToolBox/PlayerController/WeaponState_SO", fileName = "New WeaponState_SO")]
     public class WeaponState_SO : ScriptableObject
     {
 
@@ -21,8 +21,30 @@ namespace LZLToolBox.PlayerController
         public float Physic_Defence;// 物理防御加值
         public float Magic_Defence;// 魔法防御加值
         public float Additional_Health;// 生命值加值
+        public float Additional_Mana;//法力值加值
         public float Additional_Critical_Damage;// 暴击伤害加值
         public float Additional_Critical_Hit_Rate;// 暴击率加值
+
+        /// <summary>
+        /// <para>获得对应攻击力</para>
+        /// <para>参数为真时得到物理攻击力，参数为负时得到魔法攻击力</para>
+        /// </summary>
+        /// <param name="isPhysic">参数</param>
+        /// <returns></returns>
+        public float GetTypeAtkValue(bool isPhysic)
+        {
+            switch (type)
+            {
+                case WeaponType.None:
+                    return 0;
+                case WeaponType.Magic:
+                    return isPhysic ? 0 : Weapon_Attack;
+                case WeaponType.Physic:
+                    return isPhysic ? Weapon_Attack : 0;
+                default:
+                    return 0;
+            }
+        }
     }
 }
 
