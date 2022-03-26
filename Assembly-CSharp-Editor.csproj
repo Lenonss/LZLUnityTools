@@ -27,7 +27,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_2;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_2;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;ODIN_INSPECTOR;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn></NoWarn>
@@ -52,9 +52,78 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\OtherPlugin\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
-     <Compile Include="Assets\UIAnimPlugin\Editor\UISampleAnimUnitEditor.cs" />
-     <None Include="Assets\OtherPlugin\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
+     <Compile Include="Assets\LZLUnityTool\Plugins\UIAnimPlugin\Editor\UISampleAnimUnitEditor.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Window\BRT_WindowLabels.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\BRT_VersionInfo.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\FuzzyString\FuzzyStringComparisonTolerance.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Window\BRT_WindowUtility.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\FuzzyString\SorensenDiceDistance.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportGeneration\BRT_UnityBuildSettingsUtility.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Window\Screen\BRT_BaseScreen.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportData\BRT_BuildSettingsCategoryType.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Utility\DldUtil_BackwardFileReader.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportData\BRT_SizePart.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\FuzzyString\JaroWinklerDistance.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\FuzzyString\Operations.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\FuzzyString\OverlapCoefficient.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\FuzzyString\HammingDistance.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\FuzzyString\LongestCommonSubstring.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Window\Screen\BRT_BuildStepsScreen.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Window\Screen\BRT_OverviewScreen.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportGeneration\BRT_TextureDataGenerator.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Utility\DldUtil_UnityVersion.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\FuzzyString\LongestCommonSubsequence.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Options\BRT_FileFilters.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportGeneration\BRT_ReportGenerator_PublicAPI.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Utility\BRT_Util.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Window\Screen\BRT_AssetListScreen.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Utility\DldUtil_TraverseDirectory.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportData\BRT_AssetDependencies.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportData\BRT_UnityBuildSettings.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\FuzzyString\LevenshteinDistance.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportData\BRT_IDataFile.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Window\Screen\BRT_AssetListScreen_AssetUsage.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Window\Screen\BRT_AssetListScreen_Delete.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportGeneration\BRT_MeshDataGenerator.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportGeneration\BRT_ReportGenerator.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Utility\DldUtil_BigFileReader.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Options\BRT_Options.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Window\Screen\BRT_BuildSettingsScreen.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Utility\BRT_AssetList_Sort.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\FuzzyString\TanimotoCoefficient.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportData\BRT_TextureData.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportData\BRT_BuildInfo_Commands.cs" />
+     <Compile Include="Assets\LZLUnityTool\Plugins\CommonPlugin\Serialize\SeriliazibleDictionary\Editor\SerializableDictionaryPropertyDrawer.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Utility\BRT_LibCacheUtil.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportData\BRT_UnityBuildReport.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportGeneration\BRT_AssetDependencyGenerator.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Window\Screen\BRT_OptionsScreen.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Utility\BRT_AssetList_Sort_Mesh.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\FuzzyString\ApproximatelyEquals.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Window\BRT_BuildReportWindow.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\MiniJSON\MiniJSON.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\FuzzyString\RatcliffObershelpSimilarity.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Window\BRT_WindowSettings.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Window\Screen\BRT_AssetListScreen_Search.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Utility\ImageDimensions.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportData\BRT_AssetList.cs" />
+     <Compile Include="Assets\LZLUnityTool\Plugins\CommonPlugin\Tools\Editor\UnityLifeCycleEventsEditor.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportData\BRT_BuildInfo.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\FuzzyString\FuzzyStringComparisonOptions.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Utility\DldUtil_GetRspDefines.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\FuzzyString\JaroDistance.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Options\BRT_FiltersUsed.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportData\BRT_BuildPlatformType.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Window\Screen\BRT_HelpScreen.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Utility\BRT_AssetList_Sort_Texture.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\FuzzyString\JaccardDistance.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\Window\Screen\BRT_SizeStatsScreen.cs" />
+     <Compile Include="Assets\LZLUnityTool\Plugins\CommonPlugin\Tools\Editor\PlayerPrefs\PlayerPrefsEditorManager.cs" />
+     <Compile Include="Assets\LZLUnityTool\Plugins\CommonPlugin\Serialize\SeriliazibleDictionary\Exmaple\Editor\UserSerializableDictionaryPropertyDrawers.cs" />
+     <Compile Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\ReportData\BRT_MeshData.cs" />
+     <None Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\Scripts\Editor\FuzzyString\FuzzyStringLicense.txt" />
+     <None Include="Assets\LZLUnityTool\OtherPlugin\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.2f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -289,32 +358,50 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.2f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="DOTweenProEditor">
- <HintPath>E:/GitProject/LZLUnityTool/Assets/OtherPlugin/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
+ <Reference Include="Sirenix.OdinInspector.Attributes">
+ <HintPath>E:/GitProject/LZLUnityTool/Assets/LZLUnityTool/OtherPlugin/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
  </Reference>
- <Reference Include="DemiLib">
- <HintPath>E:/GitProject/LZLUnityTool/Assets/OtherPlugin/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
- </Reference>
- <Reference Include="DOTweenEditor">
- <HintPath>E:/GitProject/LZLUnityTool/Assets/OtherPlugin/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
- </Reference>
- <Reference Include="DemiEditor">
- <HintPath>E:/GitProject/LZLUnityTool/Assets/OtherPlugin/Demigiant/DemiLib/Core/Editor/DemiEditor.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>E:/GitProject/LZLUnityTool/Assets/OtherPlugin/Demigiant/DOTween/DOTween.dll</HintPath>
+ <Reference Include="Sirenix.Serialization.Config">
+ <HintPath>E:/GitProject/LZLUnityTool/Assets/LZLUnityTool/OtherPlugin/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
- <HintPath>E:/GitProject/LZLUnityTool/Assets/OtherPlugin/Demigiant/DOTween/DOTween46.dll</HintPath>
+ <HintPath>E:/GitProject/LZLUnityTool/Assets/LZLUnityTool/OtherPlugin/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
- <Reference Include="DOTween43">
- <HintPath>E:/GitProject/LZLUnityTool/Assets/OtherPlugin/Demigiant/DOTween/DOTween43.dll</HintPath>
+ <Reference Include="DemiEditor">
+ <HintPath>E:/GitProject/LZLUnityTool/Assets/LZLUnityTool/OtherPlugin/Demigiant/DemiLib/Core/Editor/DemiEditor.dll</HintPath>
  </Reference>
- <Reference Include="DOTweenPro">
- <HintPath>E:/GitProject/LZLUnityTool/Assets/OtherPlugin/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ <Reference Include="Sirenix.OdinInspector.Editor">
+ <HintPath>E:/GitProject/LZLUnityTool/Assets/LZLUnityTool/OtherPlugin/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/GitProject/LZLUnityTool/Assets/LZLUnityTool/OtherPlugin/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
- <HintPath>E:/GitProject/LZLUnityTool/Assets/OtherPlugin/Demigiant/DOTween/DOTween50.dll</HintPath>
+ <HintPath>E:/GitProject/LZLUnityTool/Assets/LZLUnityTool/OtherPlugin/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="Sirenix.Utilities.Editor">
+ <HintPath>E:/GitProject/LZLUnityTool/Assets/LZLUnityTool/OtherPlugin/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Sirenix.Utilities">
+ <HintPath>E:/GitProject/LZLUnityTool/Assets/LZLUnityTool/OtherPlugin/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
+ </Reference>
+ <Reference Include="Sirenix.Serialization">
+ <HintPath>E:/GitProject/LZLUnityTool/Assets/LZLUnityTool/OtherPlugin/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>E:/GitProject/LZLUnityTool/Assets/LZLUnityTool/OtherPlugin/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenProEditor">
+ <HintPath>E:/GitProject/LZLUnityTool/Assets/LZLUnityTool/OtherPlugin/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>E:/GitProject/LZLUnityTool/Assets/LZLUnityTool/OtherPlugin/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>E:/GitProject/LZLUnityTool/Assets/LZLUnityTool/OtherPlugin/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>E:/GitProject/LZLUnityTool/Assets/LZLUnityTool/OtherPlugin/Demigiant/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>E:/GitProject/LZLUnityTool/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -708,6 +795,14 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{94ce85ca-0c11-c74f-d15a-5704607b543e}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
+      <Project>{4e7e3312-75f2-0773-19d2-81707fb7d147}</Project>
+      <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
+      <Project>{34f3136a-0e9b-628a-f08e-4249b67cd497}</Project>
+      <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

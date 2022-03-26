@@ -1,0 +1,82 @@
+using System.ComponentModel;
+using LZLUnityTool.Plugins.InvntoryPlugin.System.TaskSystem.Scripts.Base;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace LZLUnityTool.Plugins.InvntoryPlugin.System.TaskSystem.Scripts.UI
+{
+    [DisallowMultipleComponent]
+    public class QuestAgent : MonoBehaviour
+    {
+        [HideInInspector]
+        public QuestData MQuest { get; private set; }
+        [SerializeField]
+#if UNITY_EDITOR
+        [Header("标题文字")]
+#endif
+        private Text TitleText;
+
+        [SerializeField]
+#if UNITY_EDITOR
+        [Header("隶属于完成列表")]
+#endif
+        private bool belongToCmplt;
+
+        [SerializeField]
+        private Outline selectedOutline;
+
+        [SerializeField]
+        private Color selectedColor = Color.yellow;
+
+        [HideInInspector]
+        public QuestGroupAgent parent;
+
+        /// <summary>
+        /// 使用前的初始化
+        /// </summary>
+        /// <param name="quest">对应任务</param>
+        /// <param name="isFinished">任务完成情况</param>
+        public void Init(QuestData quest, bool isFinished = false)
+        {
+            if (!selectedOutline.effectColor.Equals(selectedColor)) selectedOutline.effectColor = selectedColor;
+            MQuest = quest;
+            belongToCmplt = isFinished;
+            Deselect();
+            UpdateStatus();
+        }
+
+        public void Recycle()
+        {
+            MQuest = null;
+            TitleText.text = string.Empty;
+            Deselect();
+            belongToCmplt = false;
+            //ObjectPool.Put(gameObject);
+        }
+
+        public void UpdateStatus()
+        {
+            if (MQuest)
+            {
+                if (!belongToCmplt) TitleText.text = MQuest.Info.Title + (MQuest.IsComplete ? "(完成)" : string.Empty);
+                else TitleText.text = MQuest.Info.Title;
+            }
+        }
+
+        public void OnClick()
+        {
+            if (!MQuest) return;
+            // QuestManager.Instance.ShowDescription(this);
+        }
+
+        public void Select()
+        {
+            if (!selectedOutline.enabled) selectedOutline.enabled = true;
+        }
+
+        public void Deselect()
+        {
+            if (selectedOutline.enabled) selectedOutline.enabled = false;
+        }
+    }
+}
