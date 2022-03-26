@@ -97,7 +97,45 @@ public abstract class UISettlePanelCtrl_Base : MonoBehaviour
             }
         }
     }
-    
+
+    /// <summary>
+    /// 让文本播放数值增加的动画
+    /// </summary>
+    /// <param name="text">文本组件</param>
+    /// <param name="startValue">起始值</param>
+    /// <param name="targetValue">目标值</param>
+    /// <param name="unitDuration">间隔时间</param>
+    /// <param name="ignoreScale">是否忽略timeScale的影响</param>
+    protected virtual void CurrencyAnimUp(ref Text text,int startValue,int targetValue,float unitDuration,bool ignoreScale = true)
+    {
+        StartCoroutine(IECurrencyAnimUp(text, startValue, targetValue, unitDuration, ignoreScale));
+    }
+
+    private IEnumerator IECurrencyAnimUp(Text text, int startValue, int targetValue, float unitDuration,bool ignoreScale = true)
+    {
+        var realTime = new WaitForSecondsRealtime(unitDuration);
+        var time = new WaitForSeconds(unitDuration);
+        text.text = startValue.ToString();
+        while (true)
+        {
+            startValue += 1;
+            text.text = startValue.ToString();
+            if (ignoreScale)
+            {
+                yield return realTime;
+            }
+            else
+            {
+                yield return time;
+            }
+            
+            if (startValue == targetValue)
+            {
+                break;
+            }
+        }
+        
+    }
 
     /// <summary>
     /// OnEnable初始化数据
