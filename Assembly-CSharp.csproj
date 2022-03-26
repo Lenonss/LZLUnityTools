@@ -124,6 +124,7 @@
      <Compile Include="Assets\LZLUnityTool\Plugins\CommonPlugin\Manager\TimeManager.cs" />
      <Compile Include="Assets\LZLUnityTool\Plugins\UIAnimPlugin\Scripts\SingleItems\UIShakeAnimationItem.cs" />
      <Compile Include="Assets\LZLUnityTool\Plugins\CommercializePlugin\SampleScripts\SettAccountPanelHandler.cs" />
+     <Compile Include="Assets\LZLUnityTool\Plugins\UIAnimPlugin\Scripts\SingleItems\UITextValueChangeAnimItem.cs" />
      <None Include="Assets\LZLUnityTool\OtherPlugin\Sirenix\Assemblies\Sirenix.Utilities.Editor.xml" />
      <None Include="Assets\LZLUnityTool\OtherPlugin\BuildReport\CustomBuildScriptExample.txt" />
      <None Include="Assets\LZLUnityTool\OtherPlugin\Demigiant\DOTween\DOTween43.xml" />
